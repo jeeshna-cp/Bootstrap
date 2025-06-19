@@ -8,12 +8,53 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-   
+ 
+
+    <!--navbar-->
+   <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link ">services</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">about us</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link">products</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">contact us</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+    </span>   
+        </div>
+        
+    </nav>
+   </section>
+   <!--end navbar-->
+   <!--
         <nav class="navbar justify-content-end bg-dark">
             <div class="container-fluid">
                 <div class="h4 text-info">
                 <img src="../image/download.jpg" alt="" class="img-thumnail" style="height: 50px;">
                 Bootstrap</div>
+                
            <ul class="navbar justify-content-end" style="list-style: none;">
             <li class="nav-item">
                 <a href="#" class="navbar-brand">Home</a>
@@ -33,8 +74,28 @@
           </div>
           
         </nav>
-<div class="container-fluid">
-            <img src="../image/sunset.jpg" alt="" style="height: 100%; width: 100%;">
+        -->
+
+           
+            <div class="carousel slide" id="carouselExampleIndicators" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../image/sunset.jpg" alt="" style="height: 550px;" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/images1.jpg" alt="" style="height: 550px;" class=" d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../image/images2.jpg" alt="" style="height: 550px;" class=" d-block w-100">
+                    </div>
+                    
+                </div>
+</div>
 
         <div class="card-img-overlay justify-content-end d-flex">
                 <div class="position-relative mt-5">
@@ -57,14 +118,10 @@
     <button type="submit" class="btn btn-primary" style="width: 150px;">sign in</button>
     </div>
     </div>
+  
     </div>
    
-</div>
-        
-
-
-
-        
+</div>     
         </body>
         </html>
      
